@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the AddThis Panel feature.
+ */
+
+include_once 'addthis_panel.features.inc';
