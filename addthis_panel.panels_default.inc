@@ -31,10 +31,11 @@ function addthis_panel_default_panels_mini() {
   );
   $display->cache = array();
   $display->title = 'Share This';
+  $display->uuid = '40812d4a-85f2-4b05-abbb-aebe352ad03c';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-1';
+    $pane->pid = 'new-55d7c3a3-0a65-42fe-a1bc-57c7d76201c3';
     $pane->panel = 'middle';
     $pane->type = 'custom';
     $pane->subtype = 'add_this_custom_pane';
@@ -55,10 +56,11 @@ function addthis_panel_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['middle'][0] = 'new-1';
+    $pane->uuid = '55d7c3a3-0a65-42fe-a1bc-57c7d76201c3';
+    $display->content['new-55d7c3a3-0a65-42fe-a1bc-57c7d76201c3'] = $pane;
+    $display->panels['middle'][0] = 'new-55d7c3a3-0a65-42fe-a1bc-57c7d76201c3';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = 'new-1';
+  $display->title_pane = 'new-55d7c3a3-0a65-42fe-a1bc-57c7d76201c3';
   $mini->display = $display;
   $export['share_this'] = $mini;
 
